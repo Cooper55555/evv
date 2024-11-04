@@ -1,0 +1,486 @@
+#background-image {
+  background-image: url('https://img.freepik.com/premium-photo/voetbalveld-groen-gras-voetbalveld-achtergrond-sport-achtergrond_559531-14.jpg'); /* Replace with your image URL */
+  background-size: 100%; /* Cover the entire div */
+  background-position: center; /* Center the image */
+  height: 1000px; /* Full height of the viewport */
+  color: white; /* Text color */
+  display: flex; /* Flexbox for centering */
+  flex-direction: column; /* Column layout */
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+    border: white;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #e22727;
+    color: white;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .button-container1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #fotos1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    height: 600px;
+    text-align: center;
+    background-color: #e22727;
+    color: black;
+  }
+  
+  .buttonfotos1 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .buttonfotos1:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  #fotos2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    height: 600px;
+    text-align: center;
+    background-color: #e22727;
+    color: black;
+  }
+
+  .buttonfotos2 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .buttonfotos2:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  #fotos3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    height: 600px;
+    text-align: center;
+    background-color: #e22727;
+    color: black;
+  }
+
+  .buttonfotos3 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .buttonfotos3:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  #fotos4 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    height: 600px;
+    text-align: center;
+    background-color: #e22727;
+    color: black;
+  }
+
+  .buttonfotos4 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .buttonfotos4:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  #fotos5 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    height: 600px;
+    text-align: center;
+    background-color: #e22727;
+    color: black;
+  }
+  
+  .buttonfotos5 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .buttonfotos5:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  #artikel1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    height: 600px;
+    text-align: center;
+    background-color: #e22727;
+    color: black;
+  }
+  
+  .buttonartikel1 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .buttonartikel1:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  #bestuur1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    height: 600px;
+    text-align: center;
+    background-color: #e22727;
+    color: black;
+  }
+  
+  .buttonbestuur1 {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .buttonbestuur1:hover, a:hover {
+    opacity: 0.7;
+  }
+
+#logo1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#homeImage {
+  width: 1400px;
+  background-color: white;
+  border: 5px solid #e22727;
+}
+
+#logoimage {
+  width: 25%;
+}
+
+.logo-container {
+  display: flex;
+}
+
+#artikeltext1 {
+  text-align: center;
+  font-size: 20px;
+  background-color: #333;
+  border: 5px solid white;
+  color: white;
+}
+
+#fotostext1 {
+  font-size: 20px;
+  background-color: #333;
+  border: 5px solid white;
+  color: white;
+}
+
+#imagefotostext1 {
+  width: 850px;
+}
+
+#fotostext2 {
+  font-size: 20px;
+  background-color: #333;
+  border: 5px solid white;
+  color: white;
+}
+
+#imagefotostext2 {
+  width: 850px;
+}
+
+#fotostext3 {
+  font-size: 20px;
+  background-color: #333;
+  border: 5px solid white;
+  color: white;
+}
+
+#imagefotostext3 {
+  width: 850px;
+}
+
+#fotostext4 {
+  font-size: 20px;
+  background-color: #333;
+  border: 5px solid white;
+  color: white;
+}
+
+#imagefotostext4 {
+  width: 850px;
+}
+
+#fotostext5 {
+  font-size: 20px;
+  background-color: #333;
+  border: 5px solid white;
+  color: white;
+}
+
+#imagefotostext5 {
+  width: 850px;
+}
+
+#bestuurtext1 {
+  text-align: center;
+  font-size: 20px;
+  background-color: #333;
+  border: 5px solid white;
+  color: white;
+}
+
+#text1 {
+  font-size: 20px;
+  padding-left: 20px;
+  background: #333;
+  border: 5px solid white;
+  width: 200px;
+}
+
+#fotos1-container {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text2 {
+  font-size: 20px;
+  padding-left: 20px;
+  background: #333;
+  border: 5px solid white;
+  width: 200px;
+}
+
+#fotos2-container {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text3 {
+  font-size: 20px;
+  padding-left: 20px;
+  background: #333;
+  border: 5px solid white;
+  width: 200px;
+}
+
+#fotos3-container {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text4 {
+  font-size: 20px;
+  padding-left: 20px;
+  background: #333;
+  border: 5px solid white;
+  width: 200px;
+}
+
+#fotos4-container {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#text5 {
+  font-size: 20px;
+  padding-left: 20px;
+  background: #333;
+  border: 5px solid white;
+  width: 200px;
+}
+
+#fotos5-container {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#audio1 {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 5px solid #e22727;
+}
+
+#EVVaudio1 {
+  width: 1300px;
+}
+
+#EVVafbeelding1 {
+  width: 100px;
+  height: 100px;
+}
+
+#audio2 {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 5px solid #e22727;
+}
+
+#EVVaudio2 {
+  width: 1300px;
+}
+
+#EVVafbeelding2 {
+  width: 100px;
+  height: 100px;
+}

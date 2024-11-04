@@ -1,0 +1,285 @@
+function Home() {
+    document.getElementById("fotos1").style.display = "none";
+    document.getElementById("fotos2").style.display = "none";
+    document.getElementById("fotos3").style.display = "none";
+    document.getElementById("fotos4").style.display = "none";
+    document.getElementById("fotos5").style.display = "none";
+    document.getElementById("artikel1").style.display = "none";
+    document.getElementById("logo1").style.display = "block";
+    document.getElementById("bestuur1").style.display = "none";
+    document.getElementById("artikeltext1").style.display = "none";
+    document.getElementById("fotostext1").style.display = "none";
+    document.getElementById("fotostext2").style.display = "none";
+    document.getElementById("fotostext3").style.display = "none";
+    document.getElementById("fotostext4").style.display = "none";
+    document.getElementById("fotostext5").style.display = "none";
+    document.getElementById("bestuurtext1").style.display = "none";
+    document.getElementById("text1").style.display = "none";
+    document.getElementById("text2").style.display = "none";
+    document.getElementById("text3").style.display = "none";
+    document.getElementById("text4").style.display = "none";
+    document.getElementById("text5").style.display = "none";
+    document.getElementById("homeImage").style.display = "block";
+    document.getElementById("audio1").style.display = "flex";
+    document.getElementById("audio2").style.display = "flex";
+    document.getElementById("background-image").style.height = "1000px";
+}
+
+function Foto() {
+    document.getElementById("artikel1").style.display = "none";
+    document.getElementById("logo1").style.display = "none";
+    document.getElementById("bestuur1").style.display = "none";
+    document.getElementById("artikeltext1").style.display = "none";
+    document.getElementById("fotostext1").style.display = "none";
+    document.getElementById("fotostext2").style.display = "none";
+    document.getElementById("fotostext3").style.display = "none";
+    document.getElementById("fotostext4").style.display = "none";
+    document.getElementById("fotostext5").style.display = "none";
+    document.getElementById("bestuurtext1").style.display = "none";
+    document.getElementById("text1").style.display = "none";
+    document.getElementById("text2").style.display = "none";
+    document.getElementById("text3").style.display = "none";
+    document.getElementById("text4").style.display = "none";
+    document.getElementById("text5").style.display = "none";
+    document.getElementById("homeImage").style.display = "none";
+    document.getElementById("audio1").style.display = "none";
+    document.getElementById("audio2").style.display = "none";
+    document.getElementById("fotos1").style.display = "block";
+    document.getElementById("fotos2").style.display = "block";
+    document.getElementById("fotos3").style.display = "block";
+    document.getElementById("fotos4").style.display = "block";
+    document.getElementById("fotos5").style.display = "block";
+    document.getElementById("background-image").style.height = "3000px";
+}
+
+function Artikelen() {
+    document.getElementById("fotos1").style.display = "none";
+    document.getElementById("fotos2").style.display = "none";
+    document.getElementById("fotos3").style.display = "none";
+    document.getElementById("fotos4").style.display = "none";
+    document.getElementById("fotos5").style.display = "none";
+    document.getElementById("artikel1").style.display = "block";
+    document.getElementById("logo1").style.display = "none";
+    document.getElementById("bestuur1").style.display = "none";
+    document.getElementById("artikeltext1").style.display = "none";
+    document.getElementById("fotostext1").style.display = "none";
+    document.getElementById("fotostext2").style.display = "none";
+    document.getElementById("fotostext3").style.display = "none";
+    document.getElementById("fotostext4").style.display = "none";
+    document.getElementById("fotostext5").style.display = "none";
+    document.getElementById("bestuurtext1").style.display = "none";
+    document.getElementById("text1").style.display = "none";
+    document.getElementById("text2").style.display = "none";
+    document.getElementById("text3").style.display = "none";
+    document.getElementById("text4").style.display = "none";
+    document.getElementById("text5").style.display = "none";
+    document.getElementById("homeImage").style.display = "none";
+    document.getElementById("audio1").style.display = "none";
+    document.getElementById("audio2").style.display = "none";
+    document.getElementById("background-image").style.height = "1000px";
+}
+
+function Bestuur() {
+    document.getElementById("fotos1").style.display = "none";
+    document.getElementById("fotos2").style.display = "none";
+    document.getElementById("fotos3").style.display = "none";
+    document.getElementById("fotos4").style.display = "none";
+    document.getElementById("fotos5").style.display = "none";
+    document.getElementById("artikel1").style.display = "none";
+    document.getElementById("logo1").style.display = "none";
+    document.getElementById("bestuur1").style.display = "block";
+    document.getElementById("artikeltext1").style.display = "none";
+    document.getElementById("fotostext1").style.display = "none";
+    document.getElementById("fotostext2").style.display = "none";
+    document.getElementById("fotostext3").style.display = "none";
+    document.getElementById("fotostext4").style.display = "none";
+    document.getElementById("fotostext5").style.display = "none";
+    document.getElementById("bestuurtext1").style.display = "none";
+    document.getElementById("text1").style.display = "none";
+    document.getElementById("text2").style.display = "none";
+    document.getElementById("text3").style.display = "none";
+    document.getElementById("text4").style.display = "none";
+    document.getElementById("text5").style.display = "none";
+    document.getElementById("homeImage").style.display = "none";
+    document.getElementById("audio1").style.display = "none";
+    document.getElementById("audio2").style.display = "none";
+    document.getElementById("background-image").style.height = "1000px";
+}
+
+function fotosinformatie1() {
+    document.getElementById("fotos1").style.display = "none";
+    document.getElementById("fotos2").style.display = "none";
+    document.getElementById("fotos3").style.display = "none";
+    document.getElementById("fotos4").style.display = "none";
+    document.getElementById("fotos5").style.display = "none";
+    document.getElementById("artikel1").style.display = "none";
+    document.getElementById("logo1").style.display = "none";
+    document.getElementById("bestuur1").style.display = "none";
+    document.getElementById("artikeltext1").style.display = "none";
+    document.getElementById("fotostext1").style.display = "block";
+    document.getElementById("fotostext2").style.display = "none";
+    document.getElementById("fotostext3").style.display = "none";
+    document.getElementById("fotostext4").style.display = "none";
+    document.getElementById("fotostext5").style.display = "none";
+    document.getElementById("bestuurtext1").style.display = "none";
+    document.getElementById("text1").style.display = "block";
+    document.getElementById("text2").style.display = "none";
+    document.getElementById("text3").style.display = "none";
+    document.getElementById("text4").style.display = "none";
+    document.getElementById("text5").style.display = "none";
+    document.getElementById("homeImage").style.display = "none";
+    document.getElementById("audio1").style.display = "none";
+    document.getElementById("audio2").style.display = "none";
+    document.getElementById("background-image").style.height = "1000px";
+}
+
+function fotosinformatie2() {
+    document.getElementById("fotos1").style.display = "none";
+    document.getElementById("fotos2").style.display = "none";
+    document.getElementById("fotos3").style.display = "none";
+    document.getElementById("fotos4").style.display = "none";
+    document.getElementById("fotos5").style.display = "none";
+    document.getElementById("artikel1").style.display = "none";
+    document.getElementById("logo1").style.display = "none";
+    document.getElementById("bestuur1").style.display = "none";
+    document.getElementById("artikeltext1").style.display = "none";
+    document.getElementById("fotostext1").style.display = "none";
+    document.getElementById("fotostext2").style.display = "block";
+    document.getElementById("fotostext3").style.display = "none";
+    document.getElementById("fotostext4").style.display = "none";
+    document.getElementById("fotostext5").style.display = "none";
+    document.getElementById("bestuurtext1").style.display = "none";
+    document.getElementById("text1").style.display = "none";
+    document.getElementById("text2").style.display = "block";
+    document.getElementById("text3").style.display = "none";
+    document.getElementById("text4").style.display = "none";
+    document.getElementById("text5").style.display = "none";
+    document.getElementById("homeImage").style.display = "none";
+    document.getElementById("audio1").style.display = "none";
+    document.getElementById("audio2").style.display = "none";
+    document.getElementById("background-image").style.height = "1000px";
+}
+
+function fotosinformatie3() {
+    document.getElementById("fotos1").style.display = "none";
+    document.getElementById("fotos2").style.display = "none";
+    document.getElementById("fotos3").style.display = "none";
+    document.getElementById("fotos4").style.display = "none";
+    document.getElementById("fotos5").style.display = "none";
+    document.getElementById("artikel1").style.display = "none";
+    document.getElementById("logo1").style.display = "none";
+    document.getElementById("bestuur1").style.display = "none";
+    document.getElementById("artikeltext1").style.display = "none";
+    document.getElementById("fotostext1").style.display = "none";
+    document.getElementById("fotostext2").style.display = "none";
+    document.getElementById("fotostext3").style.display = "block";
+    document.getElementById("fotostext4").style.display = "none";
+    document.getElementById("fotostext5").style.display = "none";
+    document.getElementById("bestuurtext1").style.display = "none";
+    document.getElementById("text1").style.display = "none";
+    document.getElementById("text2").style.display = "none";
+    document.getElementById("text3").style.display = "block";
+    document.getElementById("text4").style.display = "none";
+    document.getElementById("text5").style.display = "none";
+    document.getElementById("homeImage").style.display = "none";
+    document.getElementById("audio1").style.display = "none";
+    document.getElementById("audio2").style.display = "none";
+    document.getElementById("background-image").style.height = "1000px";
+}
+
+function fotosinformatie4() {
+    document.getElementById("fotos1").style.display = "none";
+    document.getElementById("fotos2").style.display = "none";
+    document.getElementById("fotos3").style.display = "none";
+    document.getElementById("fotos4").style.display = "none";
+    document.getElementById("fotos5").style.display = "none";
+    document.getElementById("artikel1").style.display = "none";
+    document.getElementById("logo1").style.display = "none";
+    document.getElementById("bestuur1").style.display = "none";
+    document.getElementById("artikeltext1").style.display = "none";
+    document.getElementById("fotostext1").style.display = "none";
+    document.getElementById("fotostext2").style.display = "none";
+    document.getElementById("fotostext3").style.display = "none";
+    document.getElementById("fotostext4").style.display = "block";
+    document.getElementById("fotostext5").style.display = "none";
+    document.getElementById("bestuurtext1").style.display = "none";
+    document.getElementById("text1").style.display = "none";
+    document.getElementById("text2").style.display = "none";
+    document.getElementById("text3").style.display = "none";
+    document.getElementById("text4").style.display = "block";
+    document.getElementById("text5").style.display = "none";
+    document.getElementById("homeImage").style.display = "none";
+    document.getElementById("audio1").style.display = "none";
+    document.getElementById("audio2").style.display = "none";
+    document.getElementById("background-image").style.height = "1000px";
+}
+
+function fotosinformatie5() {
+    document.getElementById("fotos1").style.display = "none";
+    document.getElementById("fotos2").style.display = "none";
+    document.getElementById("fotos3").style.display = "none";
+    document.getElementById("fotos4").style.display = "none";
+    document.getElementById("fotos5").style.display = "none";
+    document.getElementById("artikel1").style.display = "none";
+    document.getElementById("logo1").style.display = "none";
+    document.getElementById("bestuur1").style.display = "none";
+    document.getElementById("artikeltext1").style.display = "none";
+    document.getElementById("fotostext1").style.display = "none";
+    document.getElementById("fotostext2").style.display = "none";
+    document.getElementById("fotostext3").style.display = "none";
+    document.getElementById("fotostext4").style.display = "none";
+    document.getElementById("fotostext5").style.display = "block";
+    document.getElementById("bestuurtext1").style.display = "none";
+    document.getElementById("text1").style.display = "none";
+    document.getElementById("text2").style.display = "none";
+    document.getElementById("text3").style.display = "none";
+    document.getElementById("text4").style.display = "none";
+    document.getElementById("text5").style.display = "block";
+    document.getElementById("homeImage").style.display = "none";
+    document.getElementById("audio1").style.display = "none";
+    document.getElementById("audio2").style.display = "none";
+    document.getElementById("background-image").style.height = "1000px";
+}
+
+function artikelinformatie() {
+    document.getElementById("fotos1").style.display = "none";
+    document.getElementById("fotos2").style.display = "none";
+    document.getElementById("fotos3").style.display = "none";
+    document.getElementById("fotos4").style.display = "none";
+    document.getElementById("fotos5").style.display = "none";
+    document.getElementById("artikel1").style.display = "none";
+    document.getElementById("logo1").style.display = "none";
+    document.getElementById("bestuur1").style.display = "none";
+    document.getElementById("artikeltext1").style.display = "block";
+    document.getElementById("fotostext1").style.display = "none";
+    document.getElementById("bestuurtext1").style.display = "none";
+    document.getElementById("text").style.display = "none";
+    document.getElementById("homeImage").style.display = "none";
+    document.getElementById("audio1").style.display = "none";
+    document.getElementById("audio2").style.display = "none";
+    document.getElementById("background-image").style.height = "1000px";
+}
+
+function bestuurinformatie() {
+    document.getElementById("fotos1").style.display = "none";
+    document.getElementById("fotos2").style.display = "none";
+    document.getElementById("fotos3").style.display = "none";
+    document.getElementById("fotos4").style.display = "none";
+    document.getElementById("fotos5").style.display = "none";
+    document.getElementById("artikel1").style.display = "none";
+    document.getElementById("logo1").style.display = "none";
+    document.getElementById("bestuur1").style.display = "none";
+    document.getElementById("artikeltext1").style.display = "none";
+    document.getElementById("fotostext1").style.display = "none";
+    document.getElementById("bestuurtext1").style.display = "block";
+    document.getElementById("text").style.display = "none";
+    document.getElementById("homeImage").style.display = "none";
+    document.getElementById("audio1").style.display = "none";
+    document.getElementById("audio2").style.display = "none";
+    document.getElementById("background-image").style.height = "1000px";
+}
+
+let vid1 = document.getElementById("audio1");
+let vid2 = document.getElementById("audio2");
+vid1.volume = 1.0;
+vid2.volume = 1.0;
