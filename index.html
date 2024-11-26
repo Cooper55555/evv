@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVV Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav id="topnav">
+        <div id="home">
+            <button id="button-home" onclick="home()"><i class="fa-solid fa-house"></i></button>
+        </div>
+    <div class="search-box">
+        <div class="row" id="SearchBar">
+            <input type="text" id="input-box" placeholder="Zoek een nummer..." autocomplete="off">
+            <button id="checkButton"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="result-box">
+        </div>
+    </div>
+</nav>
+<br>
+<div id="big-container1">
+    <div id="title-container1">
+        <h1 id="Title1">Welkom bij de&#160;<p id="Mycraft1">EVV website!</p></h1>
+        <br>
+        <h5 id="Title2">EVV bestond van&#160;<p id="Mycraft2">1958</p>&#160;tot&#160;<p id="Mycraft2">2003</p>.</h5>
+        <br>
+        <br>
+        <br>
+        <h1 id="Title3">Kies een onderwerp:</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="button-container1">
+        <button id="button1" onclick="performFunction1()">
+            <p id="button1-text">Foto Archief</p>
+            <img id="button1-image" src="https://png.pngtree.com/png-vector/20190331/ourmid/pngtree-file-archive-icon-with-line-style-vector-illustration-png-image_876755.jpg">
+        </button>
+        <button id="button2" onclick="performFunction2()">
+            <p id="button2-text">Bestuursleden</p>
+            <img id="button2-image" src="https://img.freepik.com/premium-vector/black-contact-person-icon-white-background_833641-1126.jpg">
+        </button>
+        <button id="button3" onclick="performFunction3()">
+            <p id="button3-text">Ervaringen</p>
+            <img id="button3-image" src="https://img.freepik.com/premium-vector/magnifying-glass-with-word-review-white-background-assess-icon-review-word-appraisal_995545-210.jpg">
+        </button>
+        <button id="button4" onclick="performFunction4()">
+            <p id="button4-text">Artikelen</p>
+            <img id="button4-image" src="https://png.pngtree.com/png-vector/20220811/ourmid/pngtree-newspaper-article-icon-information-magazine-vector-news-illustration-business-vector-png-image_48047480.jpg">
+        </button>
+        <button id="button5" onclick="performFunction5()">
+            <p id="button5-text">Liedjes</p>
+            <img id="button5-image" src="https://static.vecteezy.com/system/resources/previews/029/796/931/non_2x/music-icon-in-trendy-flat-style-isolated-on-white-background-music-silhouette-symbol-for-your-website-design-logo-app-ui-illustration-eps10-free-vector.jpg">
+        </button>
+        <button id="button6" onclick="performFunction6()">
+            <p id="button6-text">Overige</p>
+            <img id="button6-image" src="https://cdn.vectorstock.com/i/500p/03/29/curiosity-icon-set-curious-question-doubt-symbol-vector-53340329.jpg">
+        </button>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div id="EVVcommentsMain" hidden>
+    <div id="EVVcommentsTitle">
+      <p id="EVVcomments">EVV Ervaringen</p>
+    </div>
+      <form id="commentForm">
+          <textarea id="commentInput" placeholder="Enter your comment..."></textarea><br>
+          <button type="submit">Submit</button>
+      </form>
+      <div id="commentsSection">
+      </div>
+    </div>
+    <div id="mega-container" hidden>
+    <div id="button-container2" hidden>
+        <button id="button1-1" onclick="Foto1()" hidden>
+            <p id="button1-1-text">Foto Nummer: #001</p>
+            <img id="button1-1-image" src="Image_Editor (1).png">
+        </button>
+    </div>
+    <div id="fotos1-container" hidden>
+        <div id="fotostext1">
+          <img src="Image_Editor (2).png" id="imagefotostext1">
+        </div>
+        <div id="text1">
+            <br>
+          <p>1. Charol Wijnands&#160;</p>
+          <br>
+          <p>2. Theo Wagenmakers&#160;</p>
+          <br>
+          <p>3. Twan Jansen&#160;</p>
+          <br>
+          <p>4. Thijs Broers&#160;</p>
+          <br>
+          <p>5. Piet van Kuik&#160;</p>
+          <br>
+          <p>6. Jan Hoppenbrouwers&#160;</p>
+          <br>
+          <p>7. Kees Tijs&#160;</p>
+          <br>
+          <p>8. Wil Goeiers&#160;</p>
+          <br>
+          <p>9. Jos van de Werf&#160;</p>
+          <br>
+          <p>10. Sjef van Lil&#160;</p>
+          <br>
+          <p>11. Jac van Mook&#160;</p>
+          <br>
+          <p>12. Gerrit Jansen&#160;</p>
+          <br>
+        </div>
+      </div>
+      <div id="button-container3" hidden>
+        <button id="button1-2" onclick="Foto2()" hidden>
+            <p id="button1-2-text">Foto Nummer: #002</p>
+            <img id="button1-2-image" src="Image_Editor Foto 2.png">
+        </button>
+    </div>
+    <div id="fotos2-container" hidden>
+        <div id="fotostext2">
+          <img src="Image_Editor (1) Foto 2 nummers.png" id="imagefotostext2">
+        </div>
+        <div id="text2">
+        <br>
+        <p>1. Leo van Cauter&#160;</p>
+        <br>
+        <p>2. (onbekend) Haak&#160;</p>
+        <br>
+        <p>3. Kees Schrik&#160;</p>
+        <br>
+        <p>4. Theo Menner&#160;</p>
+        <br>
+        <p>5. Jan Smeekens&#160;</p>
+        <br>
+        <p>6. Rini Tijs&#160;</p>
+        <br>
+        <p>7. Ad Bakkers&#160;</p>
+        <br>
+        <p>8. Ronny Johannes&#160;</p>
+        <br>
+        <p>9. Kees Lodewijks&#160;</p>
+        <br>
+        <p>10. Kees van Lil&#160;</p>
+        <br>
+        <p>11. (onbekend) Cornelissen&#160;</p>
+        <br>
+        <p>12. Kees Sprangers&#160;</p>
+        <br>
+        </div>
+      </div>
+      <div id="button-container4" hidden>
+        <button id="button1-3" onclick="Foto3()" hidden>
+            <p id="button1-3-text">Foto Nummer: #003</p>
+            <img id="button1-3-image" src="Image_Editor (foto 3) zonder nummer.png">
+        </button>
+    </div>
+    <div id="fotos3-container" hidden>
+        <div id="fotostext3">
+          <img src="Image_Editor (1) (foto 3).png" id="imagefotostext3">
+        </div>
+        <div id="text3">
+        <br>
+        <p>1. Kees Tijs Jr&#160;</p>
+        <br>
+        <p>2. Meneer van Cauter&#160;</p>
+        <br>
+        <p>3. Charil Wijnands&#160;</p>
+        <br>
+        <p>4. Theo Menner&#160;</p>
+        <br>
+        <p>5. Theo Wagemakers&#160;</p>
+        <br>
+        <p>6. Jac van Mook&#160;</p>
+        <br>
+        <p>7. Sjef van Lil&#160;</p>
+        <br>
+        <p>8. Jos van de Werf&#160;</p>
+        <br>
+        <p>9. Toon Haak&#160;</p>
+        <br>
+        <p>10. Jan Blijlevens&#160;</p>
+        <br>
+        <p>11. Thijs Broers&#160;</p>
+        <br>
+        <p>12. Gerrit Jansen&#160;</p>
+        <br>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

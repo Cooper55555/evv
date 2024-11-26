@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100vws;
+    height: 10vh;
+    background-color: crimson;
+    padding: 2%;
+    display: flex;
+    gap: 25px;
+    border-bottom: 3px solid #333;
+    justify-content: center;
+    align-items: center;
+  }
+
+body {
+    background-color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.search-box {
+    width: 600px;
+    background: #fff;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 3px 20px;
+}
+
+input {
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+#button-home {
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+    display: flex;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+button .fas {
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #555;
+}
+
+.result-box ul {
+    padding: 15px 10px;
+}
+
+.result-box ul li {
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.result-box ul li:hover {
+    background: #e9f3ff;
+}
+
+.result-box {
+    max-height: 80px;
+    overflow-y: scroll;
+    position: fixed;
+    background-color: #fff;
+    width: 600px;
+}
+
+#Title1 {
+    color: crimson;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 3px #333;
+}
+
+#Title2 {
+    color: #333;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#Title3 {
+    color: crimson;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 2px #333;
+}
+
+#Mycraft2 {
+    color: crimson;
+    -webkit-text-stroke: 1px #333;
+    display: flex;
+    justify-content: center;
+}
+
+#button-container1 {
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 25px;
+    width: 80vw;
+}
+
+#button1 {
+    display: absolute;
+    font-size: 40px;
+    width: 350px;
+    border: 5px solid black;
+    border-radius: 25px;
+    background-color: crimson;
+}
+
+#button1:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#button1-image {
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+#button2 {
+  display: absolute;
+  font-size: 40px;
+  width: 350px;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: crimson;
+}
+
+#button2:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#button2-image {
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+#button3 {
+  display: absolute;
+  font-size: 40px;
+  width: 350px;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: crimson;
+}
+
+#button3:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#button3-image {
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+#button4 {
+  display: absolute;
+  font-size: 40px;
+  width: 350px;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: crimson;
+}
+
+#button4:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#button4-image {
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+#button5 {
+  display: absolute;
+  font-size: 40px;
+  width: 350px;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: crimson;
+}
+
+#button5:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#button5-image {
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+#button6 {
+  display: absolute;
+  font-size: 40px;
+  width: 350px;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: crimson;
+}
+
+#button6:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#button6-image {
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+#commentForm {
+    justify-content: center;
+    display: flex;
+  }
+  
+  #commentInput {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #submit {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #commentsSection {
+    background-color: crimson;
+    color: #333;
+    text-align: center;
+    font-size: 40px;
+    width: 100vw;
+  }
+  
+  #EVVcomments {
+    color: crimson;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 3px #333;
+  }
+
+  #mega-container {
+    position: absolute;
+    gap: 25px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #text1 {
+    font-size: 20px;
+    padding-left: 20px;
+    background: #333;
+    color: white;
+  }
+  
+  #fotos1-container {
+    position: absolute;
+    border: 5px solid crimson;
+  }
+
+  #imagefotostext1 {
+    display: flex;
+    border-right: 5px solid crimson;
+  }
+
+  #button-container2 {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#text2 {
+    font-size: 20px;
+    padding-left: 20px;
+    background: #333;
+    color: white;
+  }
+  
+  #fotos2-container {
+    position: absolute;
+    border: 5px solid crimson;
+  }
+
+  #imagefotostext2 {
+    display: flex;
+    border-right: 5px solid crimson;
+  }
+
+  #button-container3 {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#text3 {
+  font-size: 20px;
+  padding-left: 20px;
+  background: #333;
+  color: white;
+}
+
+#fotos3-container {
+  position: absolute;
+  border: 5px solid crimson;
+}
+
+#imagefotostext3 {
+  display: flex;
+  border-right: 5px solid crimson;
+}
+
+#button-container4 {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+#button1-1 {
+    display: absolute;
+    font-size: 40px;
+    width: 350px;
+    border: 5px solid black;
+    border-radius: 25px;
+    background-color: crimson;
+}
+
+#button1-1:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#button1-1-image {
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+#button1-2 {
+    display: absolute;
+    font-size: 40px;
+    width: 350px;
+    border: 5px solid black;
+    border-radius: 25px;
+    background-color: crimson;
+}
+
+#button1-2:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#button1-2-image {
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 25px;
+}
+
+#button1-3 {
+  display: absolute;
+  font-size: 40px;
+  width: 350px;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: crimson;
+}
+
+#button1-3:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#button1-3-image {
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 25px;
+}
