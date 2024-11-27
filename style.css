@@ -132,6 +132,15 @@ button .fas {
     width: 80vw;
 }
 
+#button-container-bestuur1 {
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 25px;
+  width: 80vw;
+}
+
 #button1 {
     display: absolute;
     font-size: 40px;
@@ -426,4 +435,63 @@ button .fas {
   width: 300px;
   border: 5px solid black;
   border-radius: 25px;
+}
+
+#button-bestuur-1-1 {
+  display: absolute;
+  font-size: 40px;
+  width: 350px;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: crimson;
+}
+
+#button-bestuur-1-1:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#button-bestuur-1-1-image {
+  width: 300px;
+  border: 5px solid black;
+  border-radius: 25px;
+}
+
+#BestuurText1 {
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#BestuurTitle1 {
+  font-size: 80px;
+  text-align: center;
+}
+
+#RealBestuurText1 {
+  text-align: left;
+  font-size: 30px;
+}
+
+#Bestuurd-Text-1 {
+  width: 100%;
+}
+
+#Bestuurd-Text-2 {
+  width: 65%;
+}
+
+#Bestuurd-Text-3 {
+  width: 100%;
+}
+
+#image-bestuur-container1 {
+  display: flex;
+}
+
+#KeesTijsSr {
+  width: 33%;
+  border: 5px solid crimson;
+  border-radius: 15px;
 }

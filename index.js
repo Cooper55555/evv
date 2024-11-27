@@ -62,6 +62,8 @@ function home() {
     document.getElementById("fotos1-container").style.display = "none";
     document.getElementById("fotos2-container").style.display = "none";
     document.getElementById("fotos3-container").style.display = "none";
+    document.getElementById("button-bestuur-1-1").style.display = "none";
+    document.getElementById("BestuurText1").style.display = "none";
     document.getElementById("button1-1").style.display = "none";
     document.getElementById("button1-2").style.display = "none";
     document.getElementById("button1-3").style.display = "none";
@@ -70,17 +72,30 @@ function home() {
 function performFunction1() {
     document.getElementById("big-container1").style.display = "none";
     document.getElementById("mega-container").style.display = "flex";
+    document.getElementById("mega-container1").style.display = "none";
     document.getElementById("button1-1").style.display = "block";
     document.getElementById("button1-2").style.display = "block";
     document.getElementById("button1-3").style.display = "block";
 }
 
+function performFunction2() {
+    document.getElementById("big-container1").style.display = "none";
+    document.getElementById("mega-container").style.display = "none";
+    document.getElementById("mega-container1").style.display = "flex";
+    document.getElementById("button-bestuur-1-1").style.display = "block";
+    document.getElementById("button1-1").style.display = "none";
+    document.getElementById("button1-2").style.display = "none";
+    document.getElementById("button1-3").style.display = "none";
+}
+
 function Foto1() {
     document.getElementById("big-container1").style.display = "none";
     document.getElementById("mega-container").style.display = "flex";
+    document.getElementById("mega-container1").style.display = "none";
     document.getElementById("fotos1-container").style.display = "flex";
     document.getElementById("fotos2-container").style.display = "none";
     document.getElementById("fotos3-container").style.display = "none";
+    document.getElementById("button-bestuur-1-1").style.display = "none";
     document.getElementById("button1-1").style.display = "none";
     document.getElementById("button1-2").style.display = "none";
     document.getElementById("button1-3").style.display = "none";
@@ -89,9 +104,11 @@ function Foto1() {
 function Foto2() {
     document.getElementById("big-container1").style.display = "none";
     document.getElementById("mega-container").style.display = "flex";
+    document.getElementById("mega-container1").style.display = "none";
     document.getElementById("fotos1-container").style.display = "none";
     document.getElementById("fotos2-container").style.display = "flex";
     document.getElementById("fotos3-container").style.display = "none";
+    document.getElementById("button-bestuur-1-1").style.display = "none";
     document.getElementById("button1-1").style.display = "none";
     document.getElementById("button1-2").style.display = "none";
     document.getElementById("button1-3").style.display = "none";
@@ -100,12 +117,21 @@ function Foto2() {
 function Foto3() {
     document.getElementById("big-container1").style.display = "none";
     document.getElementById("mega-container").style.display = "flex";
+    document.getElementById("mega-container1").style.display = "none";
     document.getElementById("fotos1-container").style.display = "none";
     document.getElementById("fotos2-container").style.display = "none";
     document.getElementById("fotos3-container").style.display = "flex";
+    document.getElementById("button-bestuur-1-1").style.display = "none";
     document.getElementById("button1-1").style.display = "none";
     document.getElementById("button1-2").style.display = "none";
     document.getElementById("button1-3").style.display = "none";
+}
+
+function FotoBestuur1() {
+    document.getElementById("big-container1").style.display = "none";
+    document.getElementById("mega-container1").style.display = "flex";
+    document.getElementById("button-bestuur-1-1").style.display = "none";
+    document.getElementById("BestuurText1").style.display = "block";
 }
 
 const form = document.getElementById('commentForm');
